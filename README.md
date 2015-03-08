@@ -24,10 +24,10 @@ Installation
 
 You can use [CocoaPods] to add this library to your project. Use the following in your Podfile:
 
-	pod 'swift-bytes'
+	pod 'SwiftBytes'
 
 After adding this library to your project, you can import it in your swift files:
 
-	import Bytes
+	import SwiftBytes
 
 [CocoaPods]: http://cocoapods.org
