@@ -124,7 +124,7 @@ extension NSData {
 
     public var bytes: [UInt8] {
         var result: [UInt8] = [UInt8](count: self.length, repeatedValue: 0)
-        self.getBytes(&result)
+        self.getBytes(&result, length:self.length)
         return result
     }
 
