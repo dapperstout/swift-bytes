@@ -57,21 +57,21 @@ public func concatenateBits(eightBits : [Bool]) -> UInt8 {
     return result;
 }
 
-public func concatenateNibbles(left : UInt8, right : UInt8) -> UInt8 {
+public func concatenateNibbles(left : UInt8, _ right : UInt8) -> UInt8 {
     return left << 4 | right
 }
 
-public func concatenateBytes(left : UInt8, right : UInt8) -> UInt16 {
+public func concatenateBytes(left : UInt8, _ right : UInt8) -> UInt16 {
     return UInt16(left) << 8 | UInt16(right)
 }
 
-public func concatenateBytes(b0 : UInt8, b1 : UInt8, b2 : UInt8, b3 : UInt8) -> UInt32 {
+public func concatenateBytes(b0 : UInt8, _ b1 : UInt8, _ b2 : UInt8, _ b3 : UInt8) -> UInt32 {
     return UInt32(b0) << 24 | UInt32(b1) << 16 | UInt32(b2) << 8 | UInt32(b3)
 }
 
 public func concatenateBytes(
-        b0 : UInt8, b1 : UInt8, b2 : UInt8, b3 : UInt8,
-        b4 : UInt8, b5 : UInt8, b6 : UInt8, b7 : UInt8) -> UInt64 {
+        b0 : UInt8, _ b1 : UInt8, _ b2 : UInt8, _ b3 : UInt8,
+        _ b4 : UInt8, _ b5 : UInt8, _ b6 : UInt8, _ b7 : UInt8) -> UInt64 {
     var result : UInt64 = 0
     result = result | UInt64(b0) << 56
     result = result | UInt64(b1) << 48
