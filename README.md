@@ -1,4 +1,4 @@
-Swift Bytes
+Swift Bytes [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 ===========
 
 This library contains a collection of helper methods for byte manipulation in Swift.
