@@ -88,6 +88,10 @@ public func unsigned(byte: Int8) -> UInt8 {
     return UInt8(bitPattern: byte)
 }
 
+public func unsigned(int16: Int16) -> UInt16 {
+    return UInt16(bitPattern: int16)
+}
+
 public func unsigned(int32: Int32) -> UInt32 {
     return UInt32(bitPattern: int32)
 }
@@ -102,6 +106,10 @@ public func unsigned(bytes : [Int8]) -> [UInt8] {
 
 public func signed(byte : UInt8) -> Int8 {
     return Int8(bitPattern: byte)
+}
+
+public func signed(uint16: UInt16) -> Int16 {
+    return Int16(bitPattern: uint16)
 }
 
 public func signed(uint32: UInt32) -> Int32 {

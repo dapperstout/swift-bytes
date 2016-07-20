@@ -73,6 +73,12 @@ class BytesTest: XCTestCase {
         XCTAssertEqual(unsigned(signed), UInt8(0xFF))
     }
 
+    func testUnsignedInt16() {
+        let signed = Int16(bitPattern: 0xF00F)
+        let expected: UInt16 = 0xF00F
+        XCTAssertEqual(unsigned(signed), expected)
+    }
+
     func testUnsignedInt32() {
         let signed = Int32(bitPattern: 0xF00FA00A)
         let expected: UInt32 = 0xF00FA00A
@@ -93,6 +99,11 @@ class BytesTest: XCTestCase {
     func testSignedByte() {
         let unsigned = UInt8(0xFF)
         XCTAssertEqual(signed(unsigned), Int8(bitPattern: 0xFF))
+    }
+
+    func testSignedInt16() {
+        let unsigned: UInt16 = 0xF00F
+        XCTAssertEqual(signed(unsigned), Int16(bitPattern: unsigned))
     }
 
     func testSignedInt32() {
