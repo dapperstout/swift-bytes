@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SwiftBytes"
-  s.version      = "0.4.0"
+  s.version      = "0.5.0"
   s.summary      = "Collection of helper methods for byte manipulation in Swift"
 
   s.description  = <<-DESC
