@@ -166,9 +166,11 @@
 				TargetAttributes = {
 					5C69E66C1A92A89200CE5F56 = {
 						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 0830;
 					};
 					5C69E6771A92A89200CE5F56 = {
 						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
@@ -334,6 +336,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "bytes.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -350,6 +353,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "bytes.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -364,6 +368,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "bytes.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -374,6 +379,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "bytes.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

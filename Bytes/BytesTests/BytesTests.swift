@@ -123,13 +123,13 @@ class BytesTest: XCTestCase {
 
     func testConversionToNSData() {
         let bytes: [UInt8] = [1, 2, 3]
-        let data = NSData(bytes: bytes)
-        XCTAssertEqual(data, NSData(bytes: bytes, length: Int(bytes.count)))
+        let data = Data(bytes: bytes)
+        XCTAssertEqual(data, Data(bytes: UnsafePointer<UInt8>(bytes), count: Int(bytes.count)))
     }
 
     func testConversionFromNSData() {
         let bytes: [UInt8] = [1, 2, 3]
-        let data = NSData(bytes: bytes)
+        let data = Data(bytes: bytes)
         XCTAssertEqual(data.bytes, bytes)
     }
 }
