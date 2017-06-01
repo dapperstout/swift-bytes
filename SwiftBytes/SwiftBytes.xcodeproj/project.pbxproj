@@ -55,8 +55,8 @@
 		5C69E6631A92A89200CE5F56 = {
 			isa = PBXGroup;
 			children = (
-				5C69E66F1A92A89200CE5F56 /* Bytes */,
-				5C69E67C1A92A89200CE5F56 /* BytesTests */,
+				5C69E66F1A92A89200CE5F56 /* SwiftBytes */,
+				5C69E67C1A92A89200CE5F56 /* SwiftBytesTests */,
 				5C69E66E1A92A89200CE5F56 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,14 +70,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5C69E66F1A92A89200CE5F56 /* Bytes */ = {
+		5C69E66F1A92A89200CE5F56 /* SwiftBytes */ = {
 			isa = PBXGroup;
 			children = (
 				5C69E6891A92A99100CE5F56 /* Bytes.swift */,
 				5C69E6721A92A89200CE5F56 /* Bytes.h */,
 				5C69E6701A92A89200CE5F56 /* Supporting Files */,
 			);
-			path = Bytes;
+			path = SwiftBytes;
 			sourceTree = "<group>";
 		};
 		5C69E6701A92A89200CE5F56 /* Supporting Files */ = {
@@ -88,13 +88,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5C69E67C1A92A89200CE5F56 /* BytesTests */ = {
+		5C69E67C1A92A89200CE5F56 /* SwiftBytesTests */ = {
 			isa = PBXGroup;
 			children = (
 				5C69E68B1A92A99B00CE5F56 /* BytesTests.swift */,
 				5C69E67D1A92A89200CE5F56 /* Supporting Files */,
 			);
-			path = BytesTests;
+			path = SwiftBytesTests;
 			sourceTree = "<group>";
 		};
 		5C69E67D1A92A89200CE5F56 /* Supporting Files */ = {
@@ -338,7 +338,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Bytes/Info.plist;
+				INFOPLIST_FILE = SwiftBytes/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "swift-bytes.SwiftBytes";
@@ -356,7 +356,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Bytes/Info.plist;
+				INFOPLIST_FILE = SwiftBytes/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "swift-bytes.SwiftBytes";
@@ -373,7 +373,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = BytesTests/Info.plist;
+				INFOPLIST_FILE = SwiftBytesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "bytes.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -384,7 +384,7 @@
 		5C69E6881A92A89200CE5F56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = BytesTests/Info.plist;
+				INFOPLIST_FILE = SwiftBytesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "bytes.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
