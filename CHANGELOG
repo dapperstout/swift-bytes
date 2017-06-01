@@ -1,3 +1,7 @@
+Version 0.5.1
+=============
+- Added Carthage compatibility
+
 Version 0.5.0
 =============
 - Updated to Swift 3.
