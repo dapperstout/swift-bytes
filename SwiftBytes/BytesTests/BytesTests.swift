@@ -1,5 +1,5 @@
 import XCTest
-import Bytes
+import SwiftBytes
 
 class BytesTest: XCTestCase {
 

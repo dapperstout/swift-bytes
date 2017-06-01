@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5C69E66C1A92A89200CE5F56"
-               BuildableName = "Bytes.framework"
-               BlueprintName = "Bytes"
-               ReferencedContainer = "container:Bytes.xcodeproj">
+               BuildableName = "SwiftBytes.framework"
+               BlueprintName = "SwiftBytes"
+               ReferencedContainer = "container:SwiftBytes.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5C69E6771A92A89200CE5F56"
-               BuildableName = "BytesTests.xctest"
-               BlueprintName = "BytesTests"
-               ReferencedContainer = "container:Bytes.xcodeproj">
+               BuildableName = "SwiftBytesTests.xctest"
+               BlueprintName = "SwiftBytesTests"
+               ReferencedContainer = "container:SwiftBytes.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5C69E6771A92A89200CE5F56"
-               BuildableName = "BytesTests.xctest"
-               BlueprintName = "BytesTests"
-               ReferencedContainer = "container:Bytes.xcodeproj">
+               BuildableName = "SwiftBytesTests.xctest"
+               BlueprintName = "SwiftBytesTests"
+               ReferencedContainer = "container:SwiftBytes.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5C69E66C1A92A89200CE5F56"
-            BuildableName = "Bytes.framework"
-            BlueprintName = "Bytes"
-            ReferencedContainer = "container:Bytes.xcodeproj">
+            BuildableName = "SwiftBytes.framework"
+            BlueprintName = "SwiftBytes"
+            ReferencedContainer = "container:SwiftBytes.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -79,9 +79,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5C69E66C1A92A89200CE5F56"
-            BuildableName = "Bytes.framework"
-            BlueprintName = "Bytes"
-            ReferencedContainer = "container:Bytes.xcodeproj">
+            BuildableName = "SwiftBytes.framework"
+            BlueprintName = "SwiftBytes"
+            ReferencedContainer = "container:SwiftBytes.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -97,9 +97,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5C69E66C1A92A89200CE5F56"
-            BuildableName = "Bytes.framework"
-            BlueprintName = "Bytes"
-            ReferencedContainer = "container:Bytes.xcodeproj">
+            BuildableName = "SwiftBytes.framework"
+            BlueprintName = "SwiftBytes"
+            ReferencedContainer = "container:SwiftBytes.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
