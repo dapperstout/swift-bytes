@@ -66,7 +66,12 @@ public func concatenateBytes(_ left : UInt8, _ right : UInt8) -> UInt16 {
 }
 
 public func concatenateBytes(_ b0 : UInt8, _ b1 : UInt8, _ b2 : UInt8, _ b3 : UInt8) -> UInt32 {
-    return UInt32(b0) << 24 | UInt32(b1) << 16 | UInt32(b2) << 8 | UInt32(b3)
+    var result : UInt32 = 0
+    result = result | UInt32(b0) << 24
+    result = result | UInt32(b1) << 16
+    result = result | UInt32(b2) << 8
+    result = result | UInt32(b3)
+    return result //UInt32(b0) << 24 | UInt32(b1) << 16 | UInt32(b2) << 8 | UInt32(b3)
 }
 
 public func concatenateBytes(
