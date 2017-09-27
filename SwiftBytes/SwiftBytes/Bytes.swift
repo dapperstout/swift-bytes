@@ -71,7 +71,7 @@ public func concatenateBytes(_ b0 : UInt8, _ b1 : UInt8, _ b2 : UInt8, _ b3 : UI
     result = result | UInt32(b1) << 16
     result = result | UInt32(b2) << 8
     result = result | UInt32(b3)
-    return result //UInt32(b0) << 24 | UInt32(b1) << 16 | UInt32(b2) << 8 | UInt32(b3)
+    return result
 }
 
 public func concatenateBytes(
