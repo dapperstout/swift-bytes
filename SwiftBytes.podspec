@@ -23,6 +23,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.9'
 
+  s.swift_version = '4.0'
+  
   s.source_files = "SwiftBytes/SwiftBytes/**/*.swift"
   s.requires_arc = true
 
