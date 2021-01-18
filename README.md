@@ -1,5 +1,5 @@
 # Swift Bytes
-![Swift Version 4](https://img.shields.io/badge/Swift-v4-yellow.svg)
+![Swift Version 5](https://img.shields.io/badge/Swift-v5-yellow.svg)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![CocoaPods Version Badge](https://img.shields.io/cocoapods/v/SwiftBytes.svg)](https://cocoapods.org/pods/SwiftBytes)
 [![License Badge](https://img.shields.io/cocoapods/l/SwiftBytes.svg)](LICENSE.txt)
