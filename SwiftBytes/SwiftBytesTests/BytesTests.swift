@@ -124,7 +124,9 @@ class BytesTest: XCTestCase {
     func testConversionToNSData() {
         let bytes: [UInt8] = [1, 2, 3]
         let data = Data(bytes)
-        XCTAssertEqual(data, Data(bytes: UnsafePointer<UInt8>(bytes), count: Int(bytes.count)))
+        bytes.withUnsafeBufferPointer { pointer in
+            XCTAssertEqual(data, Data(buffer: pointer))
+        }
     }
 
     func testConversionFromNSData() {
