@@ -176,10 +176,9 @@
 			};
 			buildConfigurationList = 5C69E6671A92A89200CE5F56 /* Build configuration list for PBXProject "SwiftBytes" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
