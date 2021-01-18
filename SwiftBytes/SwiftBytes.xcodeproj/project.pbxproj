@@ -181,6 +181,7 @@
 			knownRegions = (
 				English,
 				en,
+				Base,
 			);
 			mainGroup = 5C69E6631A92A89200CE5F56;
 			productRefGroup = 5C69E66E1A92A89200CE5F56 /* Products */;
