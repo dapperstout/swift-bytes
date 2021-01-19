@@ -5,7 +5,7 @@
 [![License Badge](https://img.shields.io/cocoapods/l/SwiftBytes.svg)](LICENSE.txt)
 ![Supported Platforms Badge](https://img.shields.io/cocoapods/p/SwiftBytes.svg)
 
-This library contains a collection of helper methods for byte manipulation in Swift. It requires Swift 4.
+This library contains a collection of helper methods for byte manipulation in Swift. It requires Swift 5.
 
 If you're like me, and can never remember whether you should double right-shift or tripple left-shift to get to the bits you want, then this library might be of some use to you.
 
