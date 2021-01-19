@@ -1,3 +1,7 @@
+Version 0.7.0
+=============
+- Updated to Swift 5
+
 Version 0.6.1
 =============
 - tvOS support
@@ -13,4 +17,3 @@ Version 0.5.1
 Version 0.5.0
 =============
 - Updated to Swift 3
-

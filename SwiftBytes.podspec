@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SwiftBytes"
-  s.version      = "0.6.1"
+  s.version      = "0.7.0"
   s.summary      = "Collection of helper methods for byte manipulation in Swift"
 
   s.description  = <<-DESC
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.0'
 
   s.swift_version = '5.0'
-  
+
   s.source_files = "SwiftBytes/SwiftBytes/**/*.swift"
   s.requires_arc = true
 
