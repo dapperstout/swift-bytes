@@ -3,7 +3,8 @@ import PackageDescription
 let package = Package(
     name: "SwiftBytes",
     platforms: [
-        .iOS(.v12),
+        .iOS(.v13),
+        .tvOS(.v14),
         .macOS(.v10_15)
     ],
     products: [
