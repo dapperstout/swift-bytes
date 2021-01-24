@@ -2,6 +2,10 @@
 import PackageDescription
 let package = Package(
     name: "SwiftBytes",
+    platforms: [
+        .iOS(.v12),
+        .macOS(.v10_15)
+    ],
     products: [
         .library(
             name: "SwiftBytes",
